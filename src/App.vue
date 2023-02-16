@@ -61,8 +61,17 @@ import TheWelcome from './components/TheWelcome.vue'
     </div>
   </div>
 
+  <div class="bg-green-300 grid grid-cols-2 gap-2 p-10">
+    <div>
+    <p class="font-mono font-bold text-4xl pl-5">¿Qué clase de proyectos laboramos?</p>
+    <img src="./components/codigo.gif" alt="no hay imagen :(" widht="20%" height="40%" class="pl-10 my-5">
+  </div>
+  <div>
+    <p class="text-2xl font-mono ml-5 mt-10">El ISCLab busca ao.
+    </p>
+  </div>
+  </div>
 
-  
   </body>
 </template>
 
