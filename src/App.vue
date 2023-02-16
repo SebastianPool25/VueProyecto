@@ -49,9 +49,21 @@ import TheWelcome from './components/TheWelcome.vue'
 
 </header>
 
-  <main>
-    <TheWelcome />
-  </main>
+  <body>
+    <div class="bg-green-200 grid grid-cols-2 gap-2 p-10">
+    <div>
+      <p class="font-mono font-bold text-4xl pl-5">¿Qué queremos lograr con el ISCLab?</p>
+    </div>
+    <div>
+      <p class="text-2xl font-mono ml-5 mt-10">Buscamos apoyar las ideas inovadoras de los alumnos del instituto tecnológico superior, sin importar su
+        ingenieria o su conocimiento en el area de desarrollo.
+      </p>
+    </div>
+  </div>
+
+
+  
+  </body>
 </template>
 
 <style scoped>
