@@ -44,7 +44,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <div class="ml-16">
 <h2 class="text-4xl ml-16 text-end">¿Tienes una idea inovadora?</h2>
-<h4 class="text-xl ml-16 text-end">Contactanos: jose.19070054@itsmotul.edu.mx</h4>
+<h4 class="text-xl ml-16 text-end">Contactanos: contacto@isclab.com.mx</h4>
 </div>
 
 </header>
@@ -53,9 +53,10 @@ import TheWelcome from './components/TheWelcome.vue'
     <div class="bg-green-200 grid grid-cols-2 gap-2 p-10">
     <div>
       <p class="font-mono font-bold text-4xl pl-5">¿Qué queremos lograr con el ISCLab?</p>
+      <img src="./components/lab.jpg" alt="no hay imagen :(" widht="50%" height="60%" class="pl-10 my-5">
     </div>
     <div>
-      <p class="text-2xl font-mono ml-5 mt-10">Buscamos apoyar las ideas inovadoras de los alumnos del instituto tecnológico superior, sin importar su
+      <p class="text-2xl font-mono ml-5 mt-9">Buscamos apoyar las ideas inovadoras de los alumnos del instituto tecnológico superior, sin importar su
         ingenieria o su conocimiento en el area de desarrollo.
       </p>
     </div>
@@ -67,12 +68,32 @@ import TheWelcome from './components/TheWelcome.vue'
     <img src="./components/codigo.gif" alt="no hay imagen :(" widht="20%" height="40%" class="pl-10 my-5">
   </div>
   <div>
-    <p class="text-2xl font-mono ml-5 mt-10">El ISCLab busca ao.
+    <p class="text-2xl font-mono ml-5 mt-10">El ISCLab busca ayudar a los alumnos del instituto tecnológico superior de Motul
+      para ser un reposito de ideas, que pueden tener soluciones de software tanto como un sitio Web o una aplicación Web.
     </p>
   </div>
   </div>
 
+  <div class="bg-green-400 grid grid-cols-2 gap-2 p-10">
+    <div>
+    <p class="font-mono font-bold text-4xl pl-5">¿Se puede crear un sitio Web gratuito para su proyecto?</p>
+    <img src="./components/sitio.png" alt="no hay imagen :(" widht="10%" height="10%" class="pl-12 my-5">
+  </div>
+  <div>
+    <p class="text-2xl font-mono ml-5 mt-10">Sí, pero el ISCLab necesita saber más sobre su idea y como este puede aplicar en un sitio Web o 
+      alguna aplicación Web.
+    </p>
+  </div>
+
+  </div>
+
   </body>
+
+  <footer>
+    <div class="bg-green-500">
+      <p class="text-center font-mono text-xl">Contactanos: contacto@isclab.com.mx</p>
+    </div>
+  </footer>
 </template>
 
 <style scoped>
