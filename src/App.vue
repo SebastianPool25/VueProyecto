@@ -91,7 +91,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
   <footer>
     <div class="bg-green-500">
-      <p class="text-center font-mono text-xl">Contactanos: contacto@isclab.com.mx :)</p>
+      <p class="text-center font-mono text-xl">Contactanos: contacto@isclab.com.mx</p>
     </div>
   </footer>
 </template>
